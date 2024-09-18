@@ -11,7 +11,7 @@ const CountComponent = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="p-10 bg-secondary  w-full">
+      <div className="p-10 bg-secondary  w-full text-white">
         <h1 className="text-center md:text-5xl text-3xl font-bold mb-3">
           {counterOn && <CountUp start={0} end={1000} duration={2} delay={0} />}
           +

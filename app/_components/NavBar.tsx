@@ -4,7 +4,7 @@ export default function Navbar() {
     <nav className="  mx-auto md:px-16 px-8 py-6 flex justify-between">
       <div className="font-bold text-2xl flex gap-2 items-center justify-center">
         <img src="/logo.png" alt="logo" className="h-8 w-8" />
-        <h1>Formy</h1>
+        <h1 className="text-white">Formy</h1>
       </div>
       {/* <div className="md:block hidden">
         <ul className="flex gap-8 navbar ">

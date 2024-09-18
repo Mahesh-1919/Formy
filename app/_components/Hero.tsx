@@ -3,9 +3,9 @@ import NavBar from "./NavBar";
 import { Button } from "@/components/ui/button";
 export default function Hero() {
   return (
-    <section className=" bg-gradient-to-b overflow-hidden from-secondary    to-primary to-60%  h-full md:min-h-screen">
+    <section className=" bg-gradient-to-b overflow-hidden from-secondary    to-primary to-60%  h-full ">
       <NavBar />
-      <div className="flex w-full justify-center flex-col  md:gap-6 gap-4 items-center mt-10 py-10 h-full">
+      <div className="flex w-full justify-center flex-col  md:gap-6 gap-4 items-center mt-10 py-10 h-full text-white">
         <div className="text-center  md:text-7xl text-3xl font-bold">
           Build your <span className="text-accent">Form</span> in seconds
         </div>
