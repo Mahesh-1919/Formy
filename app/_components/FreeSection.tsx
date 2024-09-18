@@ -3,7 +3,7 @@ import { MdCheck } from "react-icons/md";
 
 const FreeSection = () => {
   return (
-    <div className="grid md:grid-cols-2 grid-cols-1  grid-cols-reverse gap-8 container mx-auto md:p-24 p-10">
+    <div className="grid md:grid-cols-2 grid-cols-1  grid-cols-reverse gap-8 container mx-auto md:p-24 py-24 px-10">
       <div className="md:order-first order-last md:py-5">
         <h1 className="font-bold md:text-4xl mb-4 md:mb-8 text-2xl">
           Free Online Form Builder

@@ -15,7 +15,7 @@ import { FaPhone } from "react-icons/fa6";
 
 export default function InfiniteMovingCardsDemo() {
   return (
-    <div className=" rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden md:py-24">
+    <div className=" rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden md:py-24 py-5">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
